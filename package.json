@@ -196,7 +196,7 @@
   },
   "scripts": {
     "vscode:prepublish": "yarn run package",
-    "clean": "rm -rf dist",
+    "clean": "rimraf dist",
     "compile": "yarn run clean && webpack",
     "watch": "webpack --watch",
     "package": "yarn run clean && webpack --mode production",
@@ -224,6 +224,7 @@
     "@vscode/test-electron": "^2.5.2",
     "copy-webpack-plugin": "^12.0.2",
     "eslint": "^9.25.1",
+    "rimraf": "^6.0.1",
     "ts-loader": "^9.5.2",
     "typescript": "^5.8.3",
     "webpack": "^5.99.7",
