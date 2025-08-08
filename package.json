@@ -1,7 +1,7 @@
 {
   "name": "visor",
   "displayName": "Visor",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "publisher": "sidhantsriv",
   "description": "Makes a flowchart on the side for your code for better visualization.",
   "repository": {
@@ -229,5 +229,9 @@
     "typescript": "^5.8.3",
     "webpack": "^5.99.7",
     "webpack-cli": "^6.0.1"
+  },
+  "funding": {
+    "type": "buymeacoffee",
+    "url": "https://buymeacoffee.com/sidsodsud"
   }
 }
